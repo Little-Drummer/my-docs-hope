@@ -6,9 +6,10 @@ icon: laptop-code
 
 > 本文作者：[程序员小王](https://github.com/Little-Drummer)
 >
-> 本站地址：[https://github.com/Little-Drummer](https://github.com/Little-Drummer)
-> 
-> 本人GitHub地址：[https://github.com/Little-Drummer](https://github.com/Little-Drummer)
+> 本站地址：[https://little-drummer.github.io/my-docs-hope/](https://little-drummer.github.io/my-docs-hope/)
+>
+> 项目GitHub地址：[https://github.com/Little-Drummer/my-docs-hope](https://github.com/Little-Drummer/my-docs-hope)
+
 
 <AutoCatalog></AutoCatalog>
 

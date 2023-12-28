@@ -5,7 +5,7 @@ export default defineUserConfig({
   lang: 'zh-CN',
   title: '小王笔记站',
   description: "小王笔记站",
-  base: "/",
+  base: "/my-docs-hope/",
   head: [
     ['link', {rel: 'icon', href: '/favicon.ico'}],
   ],
