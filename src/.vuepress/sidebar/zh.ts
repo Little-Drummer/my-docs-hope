@@ -31,7 +31,7 @@ export const zhSidebar = sidebar({
             text: "学习笔记",
             icon: "/assets/icon/note.svg",
             // prefix: "studyNotes/",
-            link: "studyNotes/",
+            link: "/studyNotes/",
             children: "structure",
         },
     ],
@@ -41,7 +41,7 @@ export const zhSidebar = sidebar({
             text: "ChatGPT使用指南",
             icon: "robot",
             // prefix: "studyNotes/",
-            link: "chatgpt/",
+            link: "/chatgpt/",
             children: "structure",
         }
     ]
