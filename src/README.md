@@ -15,9 +15,15 @@ footer: 使用 <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VueP
 > 项目GitHub地址：[https://github.com/Little-Drummer/my-docs-hope](https://github.com/Little-Drummer/my-docs-hope)
 >
 
-## 学习笔记
+
+## [学习笔记](studyNotes/README.md)
 
 1. [SpringBoot学习笔记](studyNotes/SpringBoot笔记.md)
+2. [VuePress-theme-hope使用心得](studyNotes/VuePress-theme-hope使用心得.md)
+
+## [ChatGPT使用指南](chatgpt/README.md)
+
+1. [一些好用的GPTS](chatgpt/GoodGPTS.md)
 
 
 ## 常用工具

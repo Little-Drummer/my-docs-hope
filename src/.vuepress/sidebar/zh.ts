@@ -5,9 +5,16 @@ export const zhSidebar = sidebar({
         "",
         {
             text: "学习笔记",
-            icon: "laptop-code",
+            icon: "/assets/icon/note.svg",
             prefix: "studyNotes/",
             link: "studyNotes/",
+            children: "structure",
+        },
+        {
+            text: "ChatGPT使用指南",
+            icon: "robot",
+            prefix: "chatgpt/",
+            link: "chatgpt/",
             children: "structure",
         },
         {
@@ -22,10 +29,20 @@ export const zhSidebar = sidebar({
         "/",
         {
             text: "学习笔记",
-            icon: "laptop-code",
+            icon: "/assets/icon/note.svg",
             // prefix: "studyNotes/",
             link: "studyNotes/",
             children: "structure",
         },
+    ],
+    "/chatgpt/":[
+        "/",
+        {
+            text: "ChatGPT使用指南",
+            icon: "robot",
+            // prefix: "studyNotes/",
+            link: "chatgpt/",
+            children: "structure",
+        }
     ]
 });

@@ -2,11 +2,11 @@ import { navbar } from "vuepress-theme-hope";
 
 export const zhNavbar = navbar([
   "/",
-  "studyNotes",
-  "/demo/",
+  "/studyNotes/",
+  // "/demo/",
   {
     text: "测试广阔的世界",
-    icon: "laptop-code",
+    icon: "/assets/icon/PhLadder.svg",
     link: "https://little-drummer.github.io/IPTest",
   }
   // {
