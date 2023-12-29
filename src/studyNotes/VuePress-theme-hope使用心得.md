@@ -194,10 +194,15 @@ sidebar函数接收一个对象作为参数,对象的key是文件夹的路径,�
     text: "学习笔记", // 侧边栏的标题
     icon: "laptop-code", // 侧边栏的图标
     prefix: "studyNotes/", // 侧边栏的前缀
-    link: "studyNotes/", // 侧边栏的链接
+    link: "/studyNotes/", // 侧边栏的链接
     children: "structure", // 侧边栏的子文件夹
 }
 ```
+> [!tip]
+> 如果key不是根路径,则必须在link的首位加上`/` 否则会出现bug
+>
+> children: "structure" 表示自动解析文件夹下的所有文件
+
 ### 例子
 ::: details 这是一个示例
 ```ts
@@ -225,13 +230,50 @@ export const zhSidebar = sidebar({
             text: "学习笔记",
             icon: "laptop-code",
             // prefix: "studyNotes/",
-            link: "studyNotes/",
+            link: "/studyNotes/",
             children: "structure",
         },
     ]
 });
 ```
 :::
+
+
+## 导航栏的配置
+你可以在`.vuepress/navbar/zh.ts`中配置导航栏
+
+数组的每一项会自动提取对应文件的图标与标题，渲染为一个导航栏项目。
+### 字符串格式
+你可以填入一个包含多个文件链接的数组，作为导航栏基本的配置:
+```ts
+// .vuepress/config.ts
+export default defineUserConfig({
+  theme: hopeTheme({
+    navbar: [
+        "/",
+        "/studyNotes/",
+        // "/demo/",
+        {
+            text: "测试广阔的世界",
+            icon: "/assets/icon/PhLadder.svg",
+            link: "https://little-drummer.github.io/IPTest",
+        }
+    ],
+  }),
+});
+```
+> [!tip]
+> 如果直接写字符串,则表示字符串所指向的文件夹路径下的README.md文件
+> 
+> 将其title解析到导航栏中
+> 
+
+
+### 对象格式
+同侧边栏一样，如果你想为不同的页面组来显示不同的导航栏，你需要通过 路径前缀: 导航栏配置 的格式为导航栏配置一个对象。
+navbar函数接收一个对象作为参数,对象的key是文件夹的路径,对象的value是一个数组,
+数组的每一项是一个对象或者字符串
+
 
 
 

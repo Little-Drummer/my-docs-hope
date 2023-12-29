@@ -20,7 +20,7 @@ footer: 使用 <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VueP
 
 1. [SpringBoot学习笔记](studyNotes/SpringBoot笔记.md)
 2. [VuePress-theme-hope使用心得](studyNotes/VuePress-theme-hope使用心得.md)
-3. [Spark笔记(这个是显示的名字)](studyNotes/Spark笔记.md)
+
 
 ## [ChatGPT使用指南](chatgpt/README.md)
 
