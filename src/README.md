@@ -15,11 +15,14 @@ footer: 使用 <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VueP
 > 项目GitHub地址：[https://github.com/Little-Drummer/my-docs-hope](https://github.com/Little-Drummer/my-docs-hope)
 >
 
+## 介绍
+这里是小王的学习笔记站，主要用于记录学习笔记，以及一些常用工具的使用方法。
 
 ## [学习笔记](studyNotes/README.md)
 
 1. [SpringBoot学习笔记](studyNotes/SpringBoot笔记.md)
 2. [VuePress-theme-hope使用心得](studyNotes/VuePress-theme-hope使用心得.md)
+3. [pnpm使用指南](studyNotes/pnpm使用指南.md)
 
 
 ## [ChatGPT使用指南](chatgpt/README.md)

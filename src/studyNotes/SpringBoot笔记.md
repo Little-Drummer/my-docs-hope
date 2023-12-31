@@ -1,5 +1,6 @@
 ---
 title: SpringBoot笔记
+icon: /assets/icon/note.svg
 ---
 > 本文作者：[程序员小王](https://github.com/Little-Drummer)
 >

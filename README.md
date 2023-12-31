@@ -23,6 +23,8 @@
       ```bash
       npm install -g pnpm
       ```
+      
+      > [详情可见](src/studyNotes/pnpm使用指南.md)
    3. 使用pnpm在项目根目录下安装依赖
       ```bash
       pnpm install

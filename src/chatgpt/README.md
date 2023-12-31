@@ -18,6 +18,6 @@ footer: 使用 <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VueP
 
 <AutoCatalog></AutoCatalog>
 
-[前往首页](/)
+[前往首页](/my-docs-hope/)
 
 [一些好用的GPTS](GoodGPTS.md)

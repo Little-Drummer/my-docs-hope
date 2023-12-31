@@ -1,5 +1,6 @@
 ---
 title: VuePress-theme-hope使用心得
+icon: /assets/icon/note.svg
 ---
 > 本文作者：[程序员小王](https://github.com/Little-Drummer)
 >

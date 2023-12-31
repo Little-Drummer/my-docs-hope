@@ -14,11 +14,14 @@ icon: /assets/icon/note.svg
 <AutoCatalog></AutoCatalog>
 
 
-[前往首页](/)
+[前往首页](/my-docs-hope/)
 
 1. [SpringBoot学习笔记](SpringBoot笔记.md)
 
 2. [VuePress-theme-hope使用心得](VuePress-theme-hope使用心得.md)
+
+3. [pnpm使用指南](pnpm使用指南.md)
+
 
 
 
